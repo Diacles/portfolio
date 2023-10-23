@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="reset.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>AG - Alcides</title>
+</head>
+<body class="dark-background-1">
+    <section class="short-padding flex">
+        <div class="content-vertical-center flex full-width center-section">
+            <img class="image-profil sliding-left-to-right" src="images/photoClasseReduite.png" alt="PersonnalPic">
+            <div class="flex col sliding-right-to-left">
+                <h1>DE OLIVEIRA GUERRA</h1>
+                <h1>Alcides</h1>
+                <h2>Développeur</h2>
+            </div>
+        </div>
+    </section>
+    <section class="light-background-1 dark-text">
+        <div>
+            <h2>Profil</h2>
+            <p class="purple-border">Ambitieux et créatif, je suis déterminé à mettre mes compétences 
+                dans des projets numériques porteurs de sens, qui contribueront 
+                à l'avancement du monde vidéo ludique.
+            </p>
+        </div>
+        <div class="center-horizontal">
+            <button><a href="histoire.html">Histoire</a></button>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h2>Compétences</h2>
+            <ul>
+                <li>Développement de logiciels</li>
+                <li>Programmation Web</li>
+                <li>Travailler en mode projet</li>
+                <li>Mise en place d’un service numérique</li>
+            </ul>
+        </div>
+        <div class="center-horizontal">
+            <button><a href="competences.html">Détails</a></button>
+        </div>
+    </section>
+    <section class="light-background-1 dark-text">
+        <h2>Dernier projet</h2>
+        <div class="card-projet dark-background-1 light-text">
+            <div class="card-projet-content">
+                <h2>NoPlay</h2>
+                <p>Marque colmarienne dont j'ai réalisé le site e-commerce sur shopify. </p>
+            </div>
+            <div class="container-projet">
+                <a href="https://no-play.com/">
+                    <img class="image-projet" src="images/projetNoPlay.png" alt="">
+                    <div class="centered"><p>NoPlay</p></div>
+                </a>
+            </div>
+        </div>
+        <div class="center-horizontal">
+            <button><a href="projets.html">Autres réalisations</a></button>
+        </div>
+    </section>
+    <section>
+        <h2>Contact</h2>
+        <form action="form.php" method="post">
+            <div class="form-top flex">
+                <div class="form-top-section">
+                    <label for="unNom">Nom</label>
+                    <input type="text" id="unNom" name="unNom">
+                </div>
+                <div class="form-top-section">
+                    <label for="unMail">Adresse mail</label>
+                    <input type="email" id="unMail" name="unMail">
+                </div>
+            </div>
+            <div class="form-bottom flex">
+                <div class="form-bottom-section">
+                    <label for="unMessage">Message</label>
+                    <textarea name="unMessage" id="unMessage" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="center-horizontal">
+                <input type="submit" value="Envoyer">
+            </div>
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="reset.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>AG - Contact</title>
+</head>
+<body class="dark-background-1">
+    <header class="flex center-section">
+        <a href="index.html"><img class="image-logo" src="images/logo.png" alt=""></a>
+        <div class="flex avoid-logo center-section menu">
+            <nav class="flex content-vertical-center center-section">
+                <ul class="horizontal-list flex space-evenly full-width">
+                    <li><a href="histoire.html">Histoire</a></li>
+                    <li><a href="competences.html">Compétences</a></li>
+                    <li><a href="projets.html">Projets</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="light-background-1 dark-text">
+        <h2>Contact</h2>
+        <form action="form.php" method="post">
+            <div class="form-top flex">
+                <div class="form-top-section">
+                    <label for="unNom">Nom</label>
+                    <input type="text" id="unNom" name="unNom">
+                </div>
+                <div class="form-top-section">
+                    <label for="unMail">Adresse mail</label>
+                    <input type="email" id="unMail" name="unMail">
+                </div>
+            </div>
+            <div class="form-bottom flex">
+                <div class="form-bottom-section">
+                    <label for="unMessage">Message</label>
+                    <textarea name="unMessage" id="unMessage" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="center-horizontal">
+                <input type="submit" value="Envoyer">
+            </div>
+        </form>
+    </main>    
+    <footer class="flex">
+        <a href="index.html"><img class="image-logo" src="images/logo.png" alt=""></a>
+        <div class="flex avoid-logo center-section menu">
+            <nav class="flex content-vertical-center center-section">
+                <ul class="horizontal-list flex space-evenly full-width">
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

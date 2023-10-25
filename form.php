@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST["unMessage"];
     
     // Adresse e-mail où vous souhaitez recevoir le message
-    $destinataire = "alcidesguerra461@gmail.com";
+    $destinataire = "contact@alcidesdeoliveiraguerra.com";
     
     // Sujet du message
     $sujet = "Nouveau message de $nom via le formulaire de contact";
